@@ -1,0 +1,28 @@
+footer{
+    background-color:#27272B;
+    .first{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        gap:1.5rem;
+        color:#8f8f91;
+        h3{
+            color:white;
+            font-size: 1.5rem;
+        }
+        button{
+            border: none;
+            border-radius: 50%;
+            text-align: center;
+            padding:0.5rem 1rem;
+            font-size: 1.2rem;
+        }
+        input{
+            border:1px solid rgb(58, 56, 56);
+            padding: 0.5rem 0.8rem;
+            background-color: transparent;
+        }
+    }
+
+}
+

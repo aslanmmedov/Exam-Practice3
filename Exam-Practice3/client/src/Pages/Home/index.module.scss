@@ -1,0 +1,148 @@
+main {
+    background-image: url('https://preview.colorlib.com/theme/tasty/images/bg_2.jpg');
+    background-position: center;
+    background-size: cover;
+
+    .herobannerText {
+        height: 85vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        color: white;
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 0 1rem;
+
+            h2 {
+                font-weight: 100;
+                font-size: 2.5rem;
+                font-style: italic;
+            }
+
+            button {
+                margin-top: 1rem;
+                padding: 1rem 2.3rem;
+                border: 2px solid white;
+                color: white;
+                font-size: 1.3rem;
+                background-color: transparent;
+            }
+        }
+    }
+}
+
+section {
+    .cardImage {
+        img {
+            width: 100%;
+        }
+    }
+
+    .cardHolder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        .cardTitle {
+            display: flex;
+            flex-direction: column;
+            align-items: baseline;
+            justify-content: center;
+            gap: 1rem;
+
+            span {
+                color: rgb(161, 156, 156);
+            }
+
+            h1 {
+                font-weight: 100;
+                font-size: 2rem;
+            }
+
+            p {
+                font-weight: 300;
+                color: rgb(161, 156, 156);
+            }
+        }
+    }
+
+
+}
+
+section {
+    .sectionHead{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 4rem;
+    }
+    .menuButtons{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap:1rem;
+        margin-bottom: 2rem;
+        button{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            padding:1rem 1.2rem;
+            border:none;
+            background-color: white;
+            color:rgb(129, 126, 126);
+            font-size: 1.3rem;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            transition: 0.7s;
+            cursor: pointer;
+            &:hover{
+                background-color: #FFB400;
+            }
+        }
+    }
+    .card {
+        display: flex;
+        // justify-content: space-between;
+
+
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        .cardimg {
+            // overflow: hidden;
+
+            width: 80px;
+            height: 80px;
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 50%;
+            }
+        }
+        .cardprice button{
+            padding: 0.2rem 0.4rem;
+            text-align: center;
+            border:none;
+            background-color: transparent;
+        }
+
+    }
+    .searchandsort{
+        display:flex;
+        justify-content:space-around;
+        padding:1rem;
+        input{
+            padding:0.5rem 0.7rem;
+            border:none;
+            background-color:#FFB400;
+            border-radius:10px;
+            outline: none;
+        }
+    }
+}
